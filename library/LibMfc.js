@@ -1,6 +1,7 @@
 class LibMFC{
-    constructor(){
-        this.pathFBootstrap="../Library/bootstrap-5.2.2/bootstrap-5.2.2/dist/"; //fileBootstrap;
+    constructor(path){
+        // this.pathFBootstrap="../Library/bootstrap-5.2.2/bootstrap-5.2.2/dist/"; //fileBootstrap;
+        this.pathFBootstrap=path+"assets/Library/mfc/library/bootstrap-5.2.2/bootstrap-5.2.2/dist/"; //fileBootstrap;
         this.fileBootstrap=[
             "js/bootstrap.bundle.js","js/bootstrap.bundle.js.map", // 1
             "js/bootstrap.bundle.min.js","js/bootstrap.bundle.min.js.map", // 3
@@ -10,7 +11,8 @@ class LibMFC{
             "js/bootstrap.min.js","js/bootstrap.min.js.map", // 11
         ];
 
-        this.pathFMfc="../"; //fileBootstrap;
+        // this.pathFMfc="../"; //fileBootstrap;
+        this.pathFMfc=path+"assets/Library/mfc/"; //fileBootstrap;
         this.fileMfc=[
             "library/LibMfcHtml.js","loader/main.js", // 1
             "header/main.js","dropdonw/main.js", // 3
@@ -72,11 +74,5 @@ class LibMFC{
         } catch (error) {
             console.log("div dengan id fileMfc tidak di tambahkan !!!");
         }
-    }
-    delUndife=(lv)=>{
-        if(lv==undefined || lv==NaN){
-            return '';
-        }
-        return lv;
     }
 }
