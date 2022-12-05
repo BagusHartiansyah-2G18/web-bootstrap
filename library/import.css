@@ -43,6 +43,9 @@
 @import "./s_opaAlfa.css";
 @import "./s_widHig.css";
 
+@import "../../../fs_componen/plugins/toastr/toastr.css";
+@import "../../../fs_componen/plugins/sweetalert2/sweetalert2.min.css"; 
+
 body{
   font-family: "Sans-serif","Verdana","Helvetica"
 }

@@ -32,6 +32,44 @@
     min-height: 1250px;
   }
   
-  .mhightFull{
+  .hightFull{
     height: 100%;
+  }
+
+  .mwidth20{
+    min-width: 20px;
+  }
+  .mwidth30{
+    min-width: 30px;
+  }
+  .mwidth50{
+    min-width: 50px;
+  }
+  .mwidth100{
+    min-width: 100px;
+  }
+  .mwidth250{
+    min-width: 250px;
+  }
+  .mwidth500{
+    min-width: 500px;
+  }
+  .mwidth600{
+    min-width: 600px;
+  }
+  .mwidth650{
+    min-width: 650px;
+  }
+  .mwidth750{
+    min-width: 750px;
+  }
+  .mwidth1000{
+    min-width: 1000px;
+  }
+  .mwidth1250{
+    min-width: 1250px;
+  }
+  
+  .widthFull{
+    width: 100%;
   }
